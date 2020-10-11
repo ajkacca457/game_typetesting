@@ -19,13 +19,15 @@ CSS
 Javascript
 
 <h2>Live Demo</h2>
-https://js-tab-2020.netlify.app/
+https://type-testing.netlify.app/
 
 <h2>Playing instructions</h2>
-- set up the difficulty level
-- click on the start button
-- write the given words in the input field
-- score will be visible on the top right corner.
+<ul>
+<li>set up the difficulty level</li>
+<li>click on the start button</li>
+<li>write the given words in the input field</li>
+<li>score will be visible on the top right corner.</li>
+</ul>
 
 <h2>Getting Started</h2>
 To get a local copy up and running follow these simple example steps.
