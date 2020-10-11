@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Typing_Test</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/5b1eeceadd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="settings">
+  <i class="fas fa-cog fa-2x  w-col"></i>
+  <select id="difficulity">
+    <option value="easy">Easy</option>
+    <option value="medium">Medium</option>
+    <option value="hard">Hard</option>
+  </select>
+
+</div>
+
+<div class="container">
+
+<header class="head">
+<i class="fas fa-keyboard fa-4x w-col"></i>
+<div class="mainhead">
+ <i class="fas fa-i-cursor w-col anime"></i><h1 class="mhead w-col">Typing Speed Tester</h1><i class="fas fa-i-cursor w-col anime"></i>
+ </div>
+</header>
+
+<h3 class="w-col">Type the following word:</h3>
+<div class="hr"></div>
+
+<h2 id="word" class="p-col"></h2>
+
+<input type="text" id="tval" autocomplete="off" placeholder="Type your word here..">
+
+<h3 class="timecont w-col">You have : <span class="time">10 sec</span> left</h3>
+
+<h3 class="scorecont w-col">Your score is : <span class="score">0</span></h3>
+<div class="start-game w-col" id="start-game"><button class="start">Start Game</button></div>
+<div class="end-game w-col" id="end-game"><h1>hi</h1></div>
+</div>
+
+
+
+
+
+<script type="text/javascript" src="type.js"></script>
+</body>
+</html>

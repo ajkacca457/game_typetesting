@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+/* custom classes */
+
+.w-col {
+  color:white;
+}
+.p-col {
+  color:purple;
+}
+
+
+@keyframes blip {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity:0;
+  }
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.settings {
+  background-color: #3299CC;
+  text-align: center;
+  padding: 1% 0;
+}
+
+#difficulity {
+  width: 30%;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  margin: 2% auto;
+  text-align: center;
+  background-color:#236B8E	;
+  border-radius: 5px;
+  padding: 2% 0;
+  position: relative;
+}
+
+.mainhead {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.mhead {
+  margin: 0 10px;
+}
+
+.hr {
+  height:2px;
+  background-color: white;
+  width: 40%;
+  margin: auto;
+  opacity: .5;
+}
+.anime {
+  animation-name:blip;
+ animation-duration: 1s;
+  animation-iteration-count:infinite;
+}
+
+#tval {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px white solid;
+  padding-left: 10px;
+}
+
+#tval:focus {
+  outline-style: double;
+}
+
+.scorecont {
+  position: absolute;
+  top:10px;
+  right: 20px;
+}
+
+.setting {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.setting:focus {
+outline:none;
+}
+#start-game {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #585858;
+  top:0;
+  left: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+#end-game {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #585858;
+  top:0;
+  left: 0;
+  display:none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.reload {
+  background-color: #7f7fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1% 2%;
+  color:white;
+}
+
+.start {
+  background-color: #7f7fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1% 2%;
+  color:white;
+}
+
+.reload:focus {
+  outline: none;
+}
